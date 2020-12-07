@@ -49,6 +49,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() {
 		driver = BrowserFactory.startApp(driver, config.getBrowser(), config.getAppUrl());
+		//adding commit
 
 	}
 
